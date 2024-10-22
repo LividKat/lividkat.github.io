@@ -243,7 +243,7 @@ const achievementSection = {
       title: "Renders 3D (Blender)",
       subtitle:
         "Renders de producto y personajes",
-      image: require("./assets/images/2.png"),
+      image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -256,7 +256,7 @@ const achievementSection = {
       title: "Edición de video",
       subtitle:
         "Videos de diferente indole que he editado",
-      image: require("./assets/images/2.png"),
+      image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {

@@ -17,6 +17,13 @@ export const images: CustomImage[] = [
     caption: "Dona 4.0",
   },
   {
+    src: "https://imgur.com/Kss7gMZ.png",
+    original: "https://imgur.com/Kss7gMZ.png",
+    width: 320,
+    height: 320,
+    caption: "La Bruja",
+  },
+  {
     src: "https://imgur.com/FjFhuXC.png",
     original: "https://imgur.com/FjFhuXC.png",
     width: 356,
@@ -38,6 +45,13 @@ export const images: CustomImage[] = [
     caption: "Uraraka Manga Style",
   },
   {
+    src: "https://imgur.com/OvQ129f.png",
+    original: "https://imgur.com/OvQ129f.png",
+    width: 240,
+    height: 320,
+    caption: "Flores Amarillas",
+  },
+  {
     src: "https://imgur.com/nGmKvem.png",
     original: "https://imgur.com/nGmKvem.png",
     width: 200,
@@ -51,13 +65,7 @@ export const images: CustomImage[] = [
     height: 356,
     caption: "Agua de tocador: Double Nature",
   },
-  {
-    src: "https://imgur.com/utO4UPf.png",
-    original: "https://imgur.com/utO4UPf.png",
-    width: 250,
-    height: 356,
-    caption: "Muffin",
-  },
+
   {
     src: "https://imgur.com/lMJrSUc.png",
     original: "https://imgur.com/lMJrSUc.png",
@@ -86,13 +94,7 @@ export const images: CustomImage[] = [
     height: 356,
     caption: "Vaso de PEPSI",
   },
-  {
-    src: "https://imgur.com/Kss7gMZ.png",
-    original: "https://imgur.com/Kss7gMZ.png",
-    width: 320,
-    height: 320,
-    caption: "La Bruja",
-  },
+
   {
     src: "https://imgur.com/qShl1Vd.png",
     original: "https://imgur.com/qShl1Vd.png",
@@ -115,18 +117,26 @@ export const images: CustomImage[] = [
     caption: "Dona 3.0",
   },
   {
-    src: "https://imgur.com/OvQ129f.png",
-    original: "https://imgur.com/OvQ129f.png",
-    width: 240,
-    height: 320,
-    caption: "Flores Amarillas",
+    src: "https://imgur.com/utO4UPf.png",
+    original: "https://imgur.com/utO4UPf.png",
+    width: 250,
+    height: 356,
+    caption: "Muffin",
   },
+
   {
     src: "https://imgur.com/dIvTvPv.png",
     original: "https://imgur.com/dIvTvPv.png",
     width: 356,
     height: 200,
     caption: "Libro",
+  },
+  {
+    src: "https://imgur.com/G34aZ25.png",
+    original: "https://imgur.com/G34aZ25.png",
+    width: 320,
+    height: 320,
+    caption: "Mano sosteniendo casa",
   },
   {
     src: "https://imgur.com/LfmaVvF.png",
@@ -136,10 +146,44 @@ export const images: CustomImage[] = [
     caption: "Noir City",
   },
   {
-    src: "https://imgur.com/G34aZ25.png",
-    original: "https://imgur.com/G34aZ25.png",
-    width: 320,
-    height: 320,
-    caption: "Mano sosteniendo casa",
+    src: "https://imgur.com/hVHLiP1.png",
+    original: "https://imgur.com/hVHLiP1.png",
+    width: 356,
+    height: 200,
+    tags: [
+      { value: "2D", title: "2D" },
+      { value: "Illustrator", title: "Illustrator" },
+      { value: "Vectores", title: "Vectores" },
+    ],
+    caption: "Pies",
   },
+  {
+    src: "https://imgur.com/RgCyGrI.png",
+    original: "https://imgur.com/RgCyGrI.png",
+    width: 200,
+    height: 356,
+    caption: "EVA 00",
+  },
+
+  {
+    src: "https://imgur.com/du3tYqv.png",
+    original: "https://imgur.com/du3tYqv.png",
+    width: 356,
+    height: 200,
+    caption: "Panda Rojo",
+  },
+  {
+    src: "https://imgur.com/seWOuo0.png",
+    original: "https://imgur.com/seWOuo0.png",
+    width: 356,
+    height: 200,
+    caption: "Chloe Bennet",
+  },
+  {
+    src: "https://imgur.com/afvQVXe.png",
+    original: "https://imgur.com/afvQVXe.png",
+    width: 356,
+    height: 200,
+    caption: "Bailarina",
+  }
 ];

@@ -93,7 +93,6 @@ export default function Achievement() {
 
       )}
     </div>
-
         </div>
       </div>
     </Fade>

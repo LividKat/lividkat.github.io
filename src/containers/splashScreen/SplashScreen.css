@@ -7,7 +7,7 @@
 }
 
 .splash-animation-container {
-  height: 50vh;
+  height: 75vh;
 }
 
 .splash-title-container {
@@ -15,9 +15,15 @@
   text-decoration: none;
 }
 .splash-title {
-  font-family: "Agustina Regular", cursive;
+  font-family: "Dosis";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 20px;
+ color: #A6227B
+}
+
+.dark-mode .splash-title
+{
+color: #ffffff
 }

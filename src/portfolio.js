@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+<script src="https://raw.githubusercontent.com/SjomaNikitin/image-download-blocker/main/ImageBlocker.js"></script>
 
 // Splash Screen
 
@@ -36,6 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/david-acosta-bejar-440086229",
   instagram: "https://www.instagram.com/livid_kat/",
   facebook: "https://www.facebook.com/LividKat",
+  youtube: "https://www.youtube.com/@davidacostabejar6029",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -58,7 +60,7 @@ const skillsSection = {
       "⚡ Manejo básico de Unity para juegos 2D Y 3D."
     ),
     emoji(
-      "⚡ Impartir talleres para transmitir mi conocimiento a generaciones futuras."
+      "⚡ Me gusta impartir talleres para transmitir mi conocimiento a generaciones futuras."
     )
   ],
 
@@ -241,7 +243,7 @@ const achievementSection = {
       title: "Renders 3D (Blender)",
       subtitle:
         "Renders de producto y personajes",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/2.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -254,7 +256,7 @@ const achievementSection = {
       title: "Edición de video",
       subtitle:
         "Videos de diferente indole que he editado",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/2.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -345,7 +347,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contactame ☎️"),
   subtitle:
-    "¿Quieres platicar sobre un proyecto o simplemente quieres saber mas de mi? Mi correo esta disponible para todos.",
+    "¿Quieres platicar sobre un proyecto o simplemente quieres saber mas de mi?",
   number: "+52 (462) 125 5172",
   email_address: "d.acostabejar@outlook.com"
 };

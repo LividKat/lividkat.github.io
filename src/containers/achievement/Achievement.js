@@ -9,6 +9,10 @@ import { Gallery } from "react-grid-gallery";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { images, CustomImage } from "../../images";
+import BiggerPicture from "bigger-picture";
+import Macy from "macy";
+import "bigger-picture/css";
+
 
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
@@ -92,7 +96,35 @@ export default function Achievement() {
         />
 
       )}
+
     </div>
+<div id="vids">
+<a
+	href="https://www.youtube.com/watch?v=s16q3vbXjGE"
+	data-width="500"
+	data-height="500"
+	data-thumb="https://imgur.com/MidiZbl.png"
+	data-iframe="https://www.youtube.com/embed/s16q3vbXjGE?autoplay=1&playsinline=1"
+
+>
+	<img
+		src="https://imgur.com/MidiZbl.png"
+		alt="Uebok youtube embed"
+	/>
+</a>
+<a
+	href="https://youtu.be/8tRUr8ZW9Ig"
+	data-width="500"
+	data-height="500"
+	data-thumb="https://imgur.com/ZqK3UXpl.png"
+	data-iframe="https://www.youtube.com/embed/8tRUr8ZW9Ig?si=I5gRTgUewpeZXNQe?autoplay=1&playsinline=1"
+>
+	<img
+		src="https://imgur.com/ZqK3UXp.png"
+		alt="Uebok youtube embed"
+	/>
+</a>
+  </div>
         </div>
       </div>
     </Fade>

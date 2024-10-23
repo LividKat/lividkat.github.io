@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-<script src="https://raw.githubusercontent.com/SjomaNikitin/image-download-blocker/main/ImageBlocker.js"></script>
 
 // Splash Screen
 

@@ -5,35 +5,12 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
-import { images, CustomImage } from "../../images";
-import BiggerPicture from "bigger-picture";
-import Macy from "macy";
-import "bigger-picture/css";
-
+import { Carousel } from "react-responsive-3d-carousel";
 
 export default function Achievement() {
-  const {isDark} = useContext(StyleContext);
-  const [currentIndex, setCurrentIndex] = useState();
 
-  const [index, setIndex] = useState(-1);
 
-  const currentImage = images[index];
-  const nextIndex = (index + 1) % images.length;
-  const nextImage = images[nextIndex] || currentImage;
-  const prevIndex = (index + images.length - 1) % images.length;
-  const prevImage = images[prevIndex] || currentImage;
 
-  const handleClick = (index: number, item: CustomImage) => setIndex(index);
-  const handleClose = () => setIndex(-1);
-  const handleMovePrev = () => setIndex(prevIndex);
-  const handleMoveNext = () => setIndex(nextIndex);
-
-  function handleChange(index) {
-    setCurrentIndex(index);
-  }
   if (!achievementSection.display) {
     return null;
   }
@@ -55,76 +32,69 @@ export default function Achievement() {
       <div className="main" id="achievements">
         <div className="achievement-main-div">
           <div className="achievement-header">
-            <h1
-              className={
-                isDark
-                  ? "dark-mode heading achievement-heading"
-                  : "heading achievement-heading"
-              }
-            >
+            <h1>
               {achievementSection.title}
             </h1>
-            <p
-              className={
-                isDark
-                  ? "dark-mode subTitle achievement-subtitle"
-                  : "subTitle achievement-subtitle"
-              }
-            >
+            <p>
               {achievementSection.subtitle}
             </p>
           </div>
 <div>
-      <Gallery
-        images={images}
-        onClick={handleClick}
-        enableImageSelection={false}
-      />
-      {!!currentImage && (
-        /* @ts-ignore */
-        <Lightbox
-          mainSrc={currentImage.original}
-          imageTitle={currentImage.caption}
-          mainSrcThumbnail={currentImage.src}
-          nextSrc={nextImage.original}
-          nextSrcThumbnail={nextImage.src}
-          prevSrc={prevImage.original}
-          prevSrcThumbnail={prevImage.src}
-          onCloseRequest={handleClose}
-          onMovePrevRequest={handleMovePrev}
-          onMoveNextRequest={handleMoveNext}
-        />
 
-      )}
+</div>
 
-    </div>
-<div id="vids">
-<a
-	href="https://www.youtube.com/watch?v=s16q3vbXjGE"
-	data-width="500"
-	data-height="500"
-	data-thumb="https://imgur.com/MidiZbl.png"
-	data-iframe="https://www.youtube.com/embed/s16q3vbXjGE?autoplay=1&playsinline=1"
+<div>
 
+    <Carousel
+width= "1200px"
+height= "680px"
+autoPlay={false}
+spread="wide">
+      <img src="https://imgur.com/FjFhuXC.png" alt="Alt1" />
+      <img src="https://imgur.com/dIvTvPv.png" alt="Alt2" />
+      <img src="https://imgur.com/hVHLiP1.png" alt="Alt3" />
+      <img src="https://imgur.com/du3tYqv.png" alt="Alt4" />
+      <img src="https://imgur.com/seWOuo0.png" alt="Alt5" />
+      <img src="https://imgur.com/afvQVXe.png" alt="Alt6" />
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DmW01hHGXgA?si=4iZpH81sCPbBfYnS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </Carousel>
+
+
+    <Carousel
+	width= "800px"
+	height= "800px"
+	autoPlay={false}
+	spread="normal">
+      <img src="https://imgur.com/CvOq2Ek.png" alt="Alt1" />
+      <img src="https://imgur.com/OvQ129f.png" alt="Alt2" />
+      <img src="https://imgur.com/ppSvsdk.png" alt="Alt3" />
+      <img src="https://imgur.com/qShl1Vd.png" alt="Alt4" />
+      <img src="https://imgur.com/Kss7gMZ.png" alt="Alt5" />
+      <img src="https://imgur.com/LfmaVvF.png" alt="Alt6" />
+      <img src="https://imgur.com/WLcMkQB.png" alt="Alt7" />
+      <img src="https://imgur.com/G34aZ25.png" alt="Alt8" />
+      <img src="https://imgur.com/utO4UPf.png" alt="Alt9" />
+      <img src="https://imgur.com/2STZQAr.png" alt="Alt10"/>
+      <img src="https://imgur.com/lMJrSUc.png" alt="Alt11"/>
+</Carousel>
+
+
+    <Carousel
+width= "450px"
+height= "800px"
+autoPlay={false}
+spread="normal"
 >
-	<img
-		src="https://imgur.com/MidiZbl.png"
-		alt="Uebok youtube embed"
-	/>
-</a>
-<a
-	href="https://youtu.be/8tRUr8ZW9Ig"
-	data-width="500"
-	data-height="500"
-	data-thumb="https://imgur.com/ZqK3UXpl.png"
-	data-iframe="https://www.youtube.com/embed/8tRUr8ZW9Ig?si=I5gRTgUewpeZXNQe?autoplay=1&playsinline=1"
->
-	<img
-		src="https://imgur.com/ZqK3UXp.png"
-		alt="Uebok youtube embed"
-	/>
-</a>
-  </div>
+      <img src="https://imgur.com/jaCabuZ.png" alt="Alt1" />
+      <img src="https://imgur.com/059joAs.png" alt="Alt2" />
+      <img src="https://imgur.com/nGmKvem.png" alt="Alt3" />
+      <img src="https://imgur.com/lyphptu.png" alt="Alt4" />
+      <img src="https://imgur.com/521WGxJ.png" alt="Alt5" />
+      <img src="https://imgur.com/Q4cRnGK.png" alt="Alt6" />
+      <img src="https://imgur.com/RgCyGrI.png" alt="Alt7" />
+
+    </Carousel>
+</div>
         </div>
       </div>
     </Fade>

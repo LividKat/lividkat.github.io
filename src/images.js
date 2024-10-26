@@ -185,5 +185,8 @@ export const images: CustomImage[] = [
     width: 356,
     height: 200,
     caption: "Bailarina",
+  },
+  {
+    html: '<video controls autoplay><source src="https://www.youtube.com/watch?v=wsKw_Astidg" type="video/mp4"></video>'
   }
 ];

@@ -49,6 +49,7 @@ export default function Achievement() {
 width= "1200px"
 height= "680px"
 autoPlay={false}
+showIndicators={false}
 spread="wide">
       <img src="https://imgur.com/FjFhuXC.png" alt="Alt1" />
       <img src="https://imgur.com/dIvTvPv.png" alt="Alt2" />
@@ -64,7 +65,8 @@ spread="wide">
 	width= "800px"
 	height= "800px"
 	autoPlay={false}
-	spread="normal">
+	showIndicators={false}
+	spread="wide">
       <img src="https://imgur.com/CvOq2Ek.png" alt="Alt1" />
       <img src="https://imgur.com/OvQ129f.png" alt="Alt2" />
       <img src="https://imgur.com/ppSvsdk.png" alt="Alt3" />
@@ -83,7 +85,8 @@ spread="wide">
 width= "450px"
 height= "800px"
 autoPlay={false}
-spread="normal"
+showIndicators={false}
+spread="wide"
 >
       <img src="https://imgur.com/jaCabuZ.png" alt="Alt1" />
       <img src="https://imgur.com/059joAs.png" alt="Alt2" />

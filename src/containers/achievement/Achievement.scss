@@ -32,3 +32,13 @@
     text-align: center;
   }
 }
+
+#keep-ratio {
+  width:100%; /* 22.5% of the parent's width*/
+  padding-bottom: 5%; /* (25% of the parent's width) * 2.25 */
+  background: #fff url("//lorempixel.com/400/400");
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-size: cover;
+  border: 0.5px solid #ddd;
+}

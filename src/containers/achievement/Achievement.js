@@ -9,8 +9,6 @@ import { Carousel } from "react-responsive-3d-carousel";
 
 export default function Achievement() {
 
-
-
   if (!achievementSection.display) {
     return null;
   }
@@ -43,47 +41,60 @@ export default function Achievement() {
 
 </div>
 
+
+
+
 <div>
 
-    <Carousel
-width= "1200px"
-height= "680px"
+    <Carousel 
+width= "65vmin" 
+height= "40vmin" 
 autoPlay={false}
 showIndicators={false}
 spread="wide">
-      <img src="https://imgur.com/FjFhuXC.png" alt="Alt1" />
-      <img src="https://imgur.com/dIvTvPv.png" alt="Alt2" />
-      <img src="https://imgur.com/hVHLiP1.png" alt="Alt3" />
-      <img src="https://imgur.com/du3tYqv.png" alt="Alt4" />
-      <img src="https://imgur.com/seWOuo0.png" alt="Alt5" />
-      <img src="https://imgur.com/afvQVXe.png" alt="Alt6" />
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DmW01hHGXgA?si=4iZpH81sCPbBfYnS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <img  src="https://imgur.com/FjFhuXC.png" alt="Alt1" />
+      <img  src="https://imgur.com/dIvTvPv.png" alt="Alt2" />
+      <img  src="https://imgur.com/iilrToh.png" alt="Alt3" />
+      <img  src="https://imgur.com/G15IPz2.png" alt="Alt4" />
+      <img  src="https://imgur.com/cer1Tw4.png" alt="Alt5" />
+      <img  src="https://imgur.com/vrdsx1o.png" alt="Alt6" />
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=MUAHotNQb3YNadao&amp;list=PLX_KTaTQgY7dCCCMO1QaPHgOJhwsah-2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </Carousel>
 
 
+
+
     <Carousel
-	width= "800px"
-	height= "800px"
+width= "60vmin" 
+height= "60vmin" 
 	autoPlay={false}
 	showIndicators={false}
 	spread="wide">
-      <img src="https://imgur.com/CvOq2Ek.png" alt="Alt1" />
-      <img src="https://imgur.com/OvQ129f.png" alt="Alt2" />
-      <img src="https://imgur.com/ppSvsdk.png" alt="Alt3" />
-      <img src="https://imgur.com/qShl1Vd.png" alt="Alt4" />
+
+      <video src="https://imgur.com/Hpxbq3z.mp4" muted autoPlay loop />
       <img src="https://imgur.com/Kss7gMZ.png" alt="Alt5" />
-      <img src="https://imgur.com/LfmaVvF.png" alt="Alt6" />
-      <img src="https://imgur.com/WLcMkQB.png" alt="Alt7" />
-      <img src="https://imgur.com/G34aZ25.png" alt="Alt8" />
-      <img src="https://imgur.com/utO4UPf.png" alt="Alt9" />
-      <img src="https://imgur.com/2STZQAr.png" alt="Alt10"/>
-      <img src="https://imgur.com/lMJrSUc.png" alt="Alt11"/>
+      <img src="https://imgur.com/BaS00P4.png" alt="Alt6" />
+      <img src="https://imgur.com/XdJegxW.png" alt="Alt2" />
+      <img src="https://imgur.com/ppSvsdk.png" alt="Alt3" />
+      <video src="https://imgur.com/cHI4Anx.mp4" muted autoPlay loop />
+
+
+
+      <img src="https://imgur.com/94WFUeS.png" alt="Alt7" />
+      <video src="https://imgur.com/LHxDozz.mp4" muted autoPlay loop />
+      <img src="https://imgur.com/G34aZ25.png" alt="Alt9" />
+      <img src="https://imgur.com/nnTrGXI.png" alt="Alt10" />
+      <img src="https://imgur.com/2STZQAr.png" alt="Alt11"/>
+      <video src="https://imgur.com/x1j06gz.mp4" muted autoPlay loop />
 </Carousel>
 
 
+
+
+
     <Carousel
-width= "450px"
-height= "800px"
+width= "40vmin" 
+height= "70vmin" 
 autoPlay={false}
 showIndicators={false}
 spread="wide"
@@ -91,10 +102,10 @@ spread="wide"
       <img src="https://imgur.com/jaCabuZ.png" alt="Alt1" />
       <img src="https://imgur.com/059joAs.png" alt="Alt2" />
       <img src="https://imgur.com/nGmKvem.png" alt="Alt3" />
-      <img src="https://imgur.com/lyphptu.png" alt="Alt4" />
-      <img src="https://imgur.com/521WGxJ.png" alt="Alt5" />
-      <img src="https://imgur.com/Q4cRnGK.png" alt="Alt6" />
-      <img src="https://imgur.com/RgCyGrI.png" alt="Alt7" />
+      <video src="https://imgur.com/whaMD4i.mp4" muted autoPlay loop />
+      <video src="https://imgur.com/V3qaCLX.mp4" muted autoPlay loop />
+      <img src="https://imgur.com/RgCyGrI.png" alt="Alt4" />
+	
 
     </Carousel>
 </div>

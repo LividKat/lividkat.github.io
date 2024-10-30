@@ -346,7 +346,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contactame ☎️"),
   subtitle:
-    "¿Quieres platicar sobre un proyecto o simplemente quieres saber mas de mi?",
+    "¿Quieres platicar sobre un proyecto o simplemente quieres saber mas de mi? ¡Te invito a mandarme mensaje!",
   number: "+52 (462) 125 5172",
   email_address: "d.acostabejar@outlook.com"
 };

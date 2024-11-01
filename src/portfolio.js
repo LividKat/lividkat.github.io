@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/david-acosta-bejar-440086229",
   instagram: "https://www.instagram.com/livid_kat/",
   facebook: "https://www.facebook.com/LividKat",
-  youtube: "https://www.youtube.com/@davidacostabejar6029",
+  youtube: "https://youtube.com/playlist?list=PLX_KTaTQgY7dCCCMO1QaPHgOJhwsah-2L&si=Czx953s8Qf1PFfxV",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -110,7 +110,6 @@ const educationInfo = {
       logo: require("./assets/images/UG.png"),
       subHeader: "Licenciatura en Artes Digitales",
       duration: "Agosto 2017 - Junio 2022",
-      desc: "Promedio general de 9.0",
       descBullets: ["Participe en concursos como León Light Fest (Mapping) y Edición de video para prevención de accidentes."]
     }
   ]
@@ -167,7 +166,7 @@ experience: [
       desc: "Mi trabajo fue desarrollar material audiovisual para la presentación de cursos digitales que se pueden encontrar en el portal de la UVEG",
       descBullets: [
 	"La UVEG contrato a la empresa Baine & Asociados S.C.",
-	"Baine & Asociados S.C. fue la empresa para la cual yo realice mis practicas profesionales y fue con ellos que nos encargamos de realizar el material para 	la UVEG." 
+	"Baine & Asociados S.C. fue la empresa para la cual yo realice mis prácticas profesionales y fue con ellos que nos encargamos de realizar el material para 	la UVEG." 
       ]
     },
     {
@@ -346,7 +345,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contactame ☎️"),
   subtitle:
-    "¿Quieres platicar sobre un proyecto o simplemente quieres saber mas de mi? ¡Te invito a mandarme mensaje!",
+    "¿Quieres platicar sobre un proyecto o simplemente quieres saber más de mí? ¡Te invito a mandarme mensaje!",
   number: "+52 (462) 125 5172",
   email_address: "d.acostabejar@outlook.com"
 };

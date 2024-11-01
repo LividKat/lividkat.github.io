@@ -81,7 +81,7 @@ height= "60vmin"
 
 
       <img src="https://imgur.com/94WFUeS.png" alt="Alt7" />
-      <video src="https://imgur.com/LHxDozz.mp4" muted autoPlay loop />
+      <video src="https://imgur.com/LHxDozz.mp4" muted autoPlay loop alt="https://imgur.com/XdJegxW.png"/>
       <img src="https://imgur.com/G34aZ25.png" alt="Alt9" />
       <img src="https://imgur.com/nnTrGXI.png" alt="Alt10" />
       <img src="https://imgur.com/2STZQAr.png" alt="Alt11"/>

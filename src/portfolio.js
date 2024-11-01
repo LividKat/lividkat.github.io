@@ -26,7 +26,7 @@ const greeting = {
     "Soy un apasionado Artista Digital con experiencia en Modelado 3D, Edición de video y Motion Graphics."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1HwVd8VnYTeW7bs4mJWTxMHbb_zsZHVk7/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

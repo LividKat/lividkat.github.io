@@ -52,13 +52,14 @@ height= "40vmin"
 autoPlay={false}
 showIndicators={false}
 spread="wide">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=MUAHotNQb3YNadao&amp;list=PLX_KTaTQgY7dCCCMO1QaPHgOJhwsah-2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <img  src="https://imgur.com/FjFhuXC.png" alt="Alt1" />
       <img  src="https://imgur.com/dIvTvPv.png" alt="Alt2" />
       <img  src="https://imgur.com/iilrToh.png" alt="Alt3" />
       <img  src="https://imgur.com/G15IPz2.png" alt="Alt4" />
       <img  src="https://imgur.com/cer1Tw4.png" alt="Alt5" />
       <img  src="https://imgur.com/vrdsx1o.png" alt="Alt6" />
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=MUAHotNQb3YNadao&amp;list=PLX_KTaTQgY7dCCCMO1QaPHgOJhwsah-2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
     </Carousel>
 
 

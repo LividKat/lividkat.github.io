@@ -234,7 +234,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Portafolio"),
   subtitle:
-    "Trabajos que he realizado en diferentes áreas",
+    "Trabajos que he realizado en diferentes áreas (La sección de video es una playlist con mis trabajos)",
 
   achievementsCards: [
     {

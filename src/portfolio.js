@@ -149,14 +149,33 @@ const workExperiences = {
 experience: [
     {
       role: "Diseñador Gráfico",
+      company: "COSMO",
+      companylogo: require("./assets/images/COSMO.png"),
+      date: "Diciembre 2024 - Enero 2025",
+      desc: "Desarrollo de imagen corporativa para una empresa medica ubicada en León, Guanajuato.",
+
+    },
+    {
+      role: "Tallerista Premiere/After",
+      company: "Instituto Irapuato",
+      companylogo: require("./assets/images/IR.png"),
+      date: " 9 Octubre 2024",
+      desc: "Impartí un taller sobre conceptos básicos de Premiere Pro y After Effects con la finalidad de que alumnos de la carrera de Marketing aprendieran las 	bases del software y a moverse en el entorno de estos."
+    },
+    {
+      role: "Diseñador Gráfico",
       company: "Constructora GT",
       companylogo: require("./assets/images/GT.png"),
-      date: "Marzo 2024",
+      date: "Marzo - Abril 2024",
       desc: "Desarrollo de imagen corporativa para una constructora ubicada en Irapuato, Guanajuato.",
-	descBullets: [
-	"Creación de Manual de identidad corporativa.",
-      ]
 
+    },
+    {
+      role: "Tallerista Blender",
+      company: "UCB",
+      companylogo: require("./assets/images/UCB.jpg"),
+      date: " 18-20 Septiembre 2023",
+      desc: "Impartí un taller sobre conceptos básicos de Blender abarcando sus diferentes funcionalidades con la finalidad de que alumnos de la carrera de Arquitectura y Diseño  aprendieran las bases del software y a moverse en el entorno de estos."
     },
     {
       role: "Diseñador Multimedia",
@@ -168,20 +187,6 @@ experience: [
 	"La UVEG contrato a la empresa Baine & Asociados S.C.",
 	"Baine & Asociados S.C. fue la empresa para la cual yo realice mis prácticas profesionales y fue con ellos que nos encargamos de realizar el material para 	la UVEG." 
       ]
-    },
-    {
-      role: "Tallerista Premiere/After",
-      company: "Instituto Irapuato",
-      companylogo: require("./assets/images/IR.png"),
-      date: " 9 Octubre 2024",
-      desc: "Impartí un taller sobre conceptos básicos de Premiere Pro y After Effects con la finalidad de que alumnos de la carrera de Marketing aprendieran las 	bases del software y a moverse en el entorno de estos."
-    },
-    {
-      role: "Tallerista Blender",
-      company: "Universidad Catolica Boliviana",
-      companylogo: require("./assets/images/UCB.jpg"),
-      date: " 18-20 Septiembre 2023",
-      desc: "Impartí un taller sobre conceptos básicos de Blender abarcando sus diferentes funcionalidades con la finalidad de que alumnos de la carrera de Arquitectura y Diseño  aprendieran las bases del software y a moverse en el entorno de estos."
     }
 
   ]
